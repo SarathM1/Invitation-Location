@@ -11,6 +11,15 @@
 left color=transparent!0,
 right color=transparent!100]
 \setlength\parindent{0pt}
+
+\usepackage{calc}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+
+\newcommand*{\pin}{%
+  \includegraphics[height=\heightof{M}]{pin}%
+}
+
 \begin{document}
 \begin{tikzpicture}[overlay,remember picture]
   \node[anchor=east,inner sep=0pt] (pic) at (current page.east)
@@ -42,9 +51,7 @@ Pin - 683514
 \medbreak
 %{\addfontfeatures{Scale=1.4,LetterSpace=5}\scshape where?}
 {\scshape \h{D}irections?}
-\textit{%
-  Times Square,
-  London E1,
-  UK
-}
+\begin{itemize}
+	\item[] {\normalsize \pin} \href{https://goo.gl/maps/qc7ZwHpU8LH2}{Ernakulam}
+\end{itemize}
 \end{document}
