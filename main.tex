@@ -23,9 +23,9 @@ right color=transparent!100]
 \begin{document}
 \begin{tikzpicture}[overlay,remember picture]
   \node[anchor=east,inner sep=0pt] (pic) at (current page.east)
-    {\includegraphics[width=\paperwidth,height=\pdfpageheight]{map}};
+    {\includegraphics[width=\paperwidth,height=\pdfpageheight]{map_satellite}};
   \fill[white,path fading=fade right] (pic.north west) rectangle (pic.south east);
-  \coordinate (pin) at (5.95,-2.4);
+  \coordinate (pin) at (6.15,-1.8);
   \filldraw[draw=Maroon,fill=Maroon!70] (pin) -- ++(70:.5) arc (-20:200:.18) -- cycle;
   \path (pin) -- ++(0,.5) node[draw,fill,Maroon,circle,inner sep=1pt] {};
 \end{tikzpicture}%
@@ -34,7 +34,7 @@ right color=transparent!100]
 {\huge{\textsc{\h{V}enue}}}
 \bigbreak
 {\small \emph\textit{%
-\textsc{\h{C}herai \h{B}each \h{R}esorts}
+\textbf{\textsc{\h{C}herai \h{B}each \h{R}esorts}}
 Vypin Island
 Kochi, Kerala
 Pin - 683514 
@@ -42,15 +42,23 @@ Pin - 683514
 
 \vfill
 
-%{\addfontfeatures{Scale=1.4,LetterSpace=5}\scshape when?}
-{\scshape \h{W}hen?}
 {\small \emph \textit{%
-  \scshape June 10\/\rlap{,}\textsuperscript{th} 2017
-  11\kern.5pt:\kern.5pt30 am
+  \scshape \textbf{\h{O}n}: \textbf{\h{J}une \h{1}0}\/\rlap{,}\textsuperscript{th} \textbf{\h{2}017}
+  \textbf{\h{A}t: }\textbf{11}\kern.5pt:\kern.5pt\textbf{30 am}
 }}
+
+
+\vfill
+
+%{\addfontfeatures{Scale=1.4,LetterSpace=5}\scshape when?}
+%{\scshape \h{W}hen?}
+%{\small \emph \textit{%
+%  \scshape June 10\/\rlap{,}\textsuperscript{th} 2017
+%  11\kern.5pt:\kern.5pt30 am
+%}}
 \medbreak
 %{\addfontfeatures{Scale=1.4,LetterSpace=5}\scshape where?}
-{\scshape \h{D}irections?}\footnote{Click to get directions on Google Maps}
+{\scshape \textbf{\h{D}irections}}\footnote{Click to get directions on Google Maps}
 \begin{itemize}
 	\item[] {\normalsize \pin} \underline{\href{https://www.google.co.in/maps/dir/Mount+Carmel+Church,+Pottakuzhi+-+Mamangalam+Rd,+Mamangalam,+Elamakkara,+Ernakulam,+Kerala+682025/Cherai+Beach+Resorts,+Cherai,+Vypin,+Kerala/@10.0633394,76.1809834,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3b080d0fa96af125:0x696a9989e82b6c02!2m2!1d76.3032795!2d10.0093666!1m5!1m1!1s0x3b0810a300000001:0xebdd3e12cda825ee!2m2!1d76.1986595!2d10.1363985}{From Ernakulam}}
 
