@@ -28,11 +28,11 @@ right color=transparent!100]
 
 \begin{document}
 
-\includepdf[width=\paperwidth, height=\paperheight]{/home/sm/Documents/Weddding-Invitation/test2.pdf}
+\includepdf[width=\paperwidth, height=\paperheight]{/home/sm/Documents/Weddding-Invitation/test4.pdf}
 
 \begin{tikzpicture}[overlay,remember picture]
   \node[anchor=east,inner sep=0pt] (pic) at (current page.east)
-    {\includegraphics[width=\paperwidth,height=\pdfpageheight]{map_satellite}};
+    {\includegraphics[width=1.001\paperwidth,height=\pdfpageheight]{map_satellite}};
   \fill[white,path fading=fade right] (pic.north west) rectangle (pic.south east);
   \coordinate (pin) at (6.15,-1.8);
   \filldraw[draw=Maroon,fill=Maroon!70] (pin) -- ++(70:.5) arc (-20:200:.18) -- cycle;
